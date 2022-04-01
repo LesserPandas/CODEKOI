@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+table {
+	width: 800px;
+}
+
+tr {
+	height: 70px;
+}
+
+td {
+	border-bottom : 1px solid #ddd;
+	padding:5px 0;
+}
+
+input {
+	font-size:16px;
+	width:600px;
+	height:40px;
+	padding:5px;
+}
+
+textarea {
+	font-size:16px;
+	width: 600px;
+	height: 300px;
+	margin:5px 0;
+}
+
+textarea.withPhoto {
+	font-size:16px;
+	width: 600px;
+	height: 200px;
+	margin:5px 0;
+}
+
+.btn {
+	width: 150px;
+	height: 40px;
+	margin:0 10px;
+	border:none;
+	font-size:16px;
+	font-weight:700;
+	background:#f2f2f2;
+}
+
+.btn-blue {
+	color:#fff;
+	background:#0065ff;
+	border-radius:3px;
+}
+
+.btn-red {
+	color:#fff;
+	background:#9e0004;
+	border-radius:3px;
+}
+

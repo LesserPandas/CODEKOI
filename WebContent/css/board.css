@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+body {
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* <board common> */
+#allCountPage {
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.title {
+	width: 1260px;
+	height: 60px;
+	padding: 10px 10px;
+	position: relative;
+	left: 180px;
+	z-index: 998;
+	background: #333;
+	color: #fff;
+}
+
+.title h1 {
+	font-size: 40px;
+	float: left;
+	border-left: 3px solid #fff;
+	line-height: 80%;
+	margin-top: 5px;
+	padding-left: 20px;
+}
+
+.title .subtitle {
+	float: left;
+	margin-left: 20px;
+	margin-top: 8px;
+	color: #bbb;
+	font-size: 24px;
+	border-left: 3px solid #bbb;
+	padding-left: 10px;
+	line-height: 100%;
+}
+
+/* Search Area */
+#search_bar {
+	float: right;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+#sub_search_box {
+	width: 280px;
+	height: 30px;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+#sub_search_box:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#search_text {
+	width: 250px;
+	height: 26px;
+	float: left;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+#search_text>input {
+	border: none;
+	background: none;
+	width: 195px;
+	height: 22px;
+	font-size: 16px;
+	color: #333;
+	font-weight: 500;
+	padding: 2px 4px;
+}
+
+#search_text>input:placeholder {
+	color: #eee;
+}
+
+input:focus {
+	outline: none;
+}
+
+#sub_search_button {
+	width: 20px;
+	height: 22px;
+	margin-top: 4px;
+	margin-left: 4px;
+	float: left;
+}
+
+#sub_search_button>i {
+	color: #333;
+}
+
+.select_common {
+	border: none;
+	background: transparent;
+	font-weight: 600;
+}
+
+/* board area */
+.board_area:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+article {
+	width: 960px;
+	min-height: 618px;
+	float: left;
+	margin-left: 12.5%;
+	padding: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+table>tbody>tr>th {
+	color: #fff;
+	background: #555;
+	font-size: 18px;
+	height: 45px;
+	line-height: 220%;
+	border-bottom: 10px solid #fff;
+}
+
+table>tbody>tr>td {
+	width: 90px;
+	height: 45px;
+	font-size: 16px;
+	line-height: 130%;
+	text-align: center;
+}
+
+table>tbody>tr>td:nth-child(2) {
+	width: 450px;
+	text-align: left;
+}
+
+#table_footer {
+	width: 900px;
+	height: 70px;
+	margin-top: 20px;
+}
+
+#table_footer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#board_ctrl {
+	width: 120px;
+	height: 40px;
+	float: left;
+}
+
+#board_ctrl>select {
+	height: 30px;
+}
+
+#pagination {
+	width: 242px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#pagination>ul {
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+#pagination>ul>li:first-child {
+	border-left: none;
+}
+
+#pagination>ul>li {
+	float: left;
+	width: 34px;
+	height: 34px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 7px;
+	text-align: center;
+}
+
+#pagination a {
+	text-decoration: none;
+	color: #333;
+}
+
+#pagination a:linked {
+	color: #333;
+}
+
+.active {
+	color: #1c57ff;
+}
+
+#write_button {
+	width: 120px;
+	height: 40px;
+	float: right;
+}
+
+#write_button>button {
+	width: 80px;
+	height: 30px;
+	float: right;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	background: #008000;
+	border: none;
+	border-radius: 2px;
+}
+
+aside {
+	width: 300px;
+	float: left;
+	background: #eee;
+}
+
+.btn_common {
+	width: 70px;
+	height: 40px;
+	border: 1px solid #777;
+	font-size: 16px;
+	font-weight: 400;
+	background: #fff;
+	margin-left: 8px;
+	float: left;
+}
+
+.mg-auto {
+	margin: 0 auto;
+}
+
+.block {
+	display: block;
+}
+
+.noFloat {
+	float: none;
+}
+
+/* <photo board> */
+.photo_board_list {
+	padding: 10px 0;
+	height: 200px;
+	border-bottom: 1px solid #ddd;
+}
+
+.photo_board_list:list-child {
+	border-bottom: none;
+}
+
+.photo_board_list img {
+	float: left;
+	width: 200px;
+	height: 180px;
+}
+
+.photo_board_list div {
+	float: left;
+}
+
+.photo_board_list p, .photo_board_list h1 {
+	margin-left: 10px;
+	word-wrap: break-word;
+}
+
+.news_content {
+	width: 520px;
+}
+
+.date {
+	width: 100px;
+}
+
+.date>p:first-child {
+	font-size: 56px;
+	font-weight: 600;
+}
+
+table a:hover, table a:visited, table a:link, table a:active {
+	color: #333;
+}
